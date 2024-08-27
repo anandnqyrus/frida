@@ -3,7 +3,7 @@
 Dynamic instrumentation toolkit for developers, reverse-engineers, and security
 researchers. Learn more at [frida.re](https://frida.re/).
 
-# Steps to build the frida binaries
+# Steps to build the frida binaries post checking out the repository
 1. Run - sudo apt-get install build-essential git lib32stdc++-9-dev libc6-dev-i386 nodejs npm as a prerequisite ( nodejs version should be >= 18)
 2. Inside the git project root folder (/frida) run - ./configure. This will configure the build for the native machine on which we're building.
 3. Next, run - make. Which will use ./build as the build directory.
